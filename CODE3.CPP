@@ -35,6 +35,7 @@ void student::result(void)
 }
 int main()
 {
+    cout<<"PRATEEK SINGH\n1/23/SET/BCS/362\nCLASS : 3A\n ";
     student s[10];
     for(int i=0; i<5; i++)
     {
