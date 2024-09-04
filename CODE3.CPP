@@ -10,7 +10,7 @@ class student
 };
 void student:: get_details(void)
 {
-    cout<<"Enter the name and roll no. of the students ";
+    cout<<" \nEnter the name and roll no. of the students ";
     cin>>name>>rollno;
     cout<<"Enter the marks: ";
     for(int i=0; i<5; i++)
@@ -21,21 +21,21 @@ void student:: get_details(void)
 }
 void student::put_details(void)
 {
-    cout<< "Name and roll no. are: "<<name<<rollno;
+    cout<< "Name and roll no. are: "<<rollno<<name;
 }
 void student::result(void)
 {
     int sum=0;
-    cout<<"Average marks are: ";
+    cout<<"\nAverage marks are:  ";
     for (int i=0; i<5; i++)
     {
         sum=sum+marks[i];
     }
-    cout<<sum/5;
+    cout<<sum/5 ;
 }
 int main()
 {
-    cout<<"PRATEEK SINGH\n1/23/SET/BCS/362\nCLASS : 3A\n ";
+    cout<<"PRATEEK SINGH \n1/23/SET/BCS/362 \nCLASS : 3A \n ";
     student s[10];
     for(int i=0; i<5; i++)
     {
